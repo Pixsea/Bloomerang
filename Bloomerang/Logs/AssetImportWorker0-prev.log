@@ -1,6 +1,10 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+<<<<<<< HEAD
 OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16298 MB
+=======
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16326 MB
+>>>>>>> main
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,6 +15,7 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 C:/Users/giang/projects/Tonys/Bloomerang/Bloomerang
 -logFile
 Logs/AssetImportWorker0.log
@@ -31,10 +36,33 @@ Direct3D:
     Vendor:   
     VRAM:     8050 MB
     Driver:   27.21.14.5751
+=======
+C:/Users/Leon/Documents/Unity Projects/Bloomerang/Bloomerang
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52315
+Successfully changed project path to: C:/Users/Leon/Documents/Unity Projects/Bloomerang/Bloomerang
+C:/Users/Leon/Documents/Unity Projects/Bloomerang/Bloomerang
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 23.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Leon/Documents/Unity Projects/Bloomerang/Bloomerang/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   27.21.14.5730
+>>>>>>> main
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -42,11 +70,21 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/E
 Registered in 0.001857 seconds.
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 35.55 ms, found 1 plugins.
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001040 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 23.61 ms, found 1 plugins.
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  1.001 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
@@ -54,23 +92,42 @@ Registered in 0.001043 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 36.82 ms, found 1 plugins.
+=======
+- Completed reload, in  0.598 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000509 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.40 ms, found 1 plugins.
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Completed reload, in  0.914 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+=======
+- Completed reload, in  0.552 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+>>>>>>> main
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1767 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 83.0 MB.
 System memory in use after: 83.1 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2211.
+<<<<<<< HEAD
 Total: 2.492200 ms (FindLiveObjects: 0.275000 ms CreateObjectMapping: 0.103000 ms MarkObjects: 2.051900 ms  DeleteObjects: 0.060900 ms)
 
 ========================================================================
@@ -135,5 +192,39 @@ Received Import Request.
   artifactKey: Guid(b5fdc6fc6e7f0024582646bc54c61775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Sprites/Rocket-Animation-Sprite.gif using Guid(b5fdc6fc6e7f0024582646bc54c61775) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f663c5304651d2bc5783f7ad49bac28') in 0.007244 seconds
   Import took 0.010288 seconds .
+=======
+Total: 1.632800 ms (FindLiveObjects: 0.203400 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.337600 ms  DeleteObjects: 0.046600 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites
+  artifactKey: Guid(a03a971841c917548ace7a2d523c97a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites using Guid(a03a971841c917548ace7a2d523c97a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f894f462100a6d416604f8eb53d15ad') in 0.006982 seconds
+  Import took 0.009316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.954442 seconds.
+  path: Assets/Sprites/Exit.png
+  artifactKey: Guid(cd23288bf873be8499401525f84f25b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Exit.png using Guid(cd23288bf873be8499401525f84f25b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee14ffa5f2115ea32369254e7f78a974') in 0.061770 seconds
+  Import took 0.064185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Sprites/Pills.png
+  artifactKey: Guid(645749d1d2e67a4418fd3def9fc3026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pills.png using Guid(645749d1d2e67a4418fd3def9fc3026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f39c4d844a10bba556163b96c59b155') in 0.009267 seconds
+  Import took 0.011009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sprites/Shop Button.png
+  artifactKey: Guid(136d7c03968ca24408307aa171e27100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Shop Button.png using Guid(136d7c03968ca24408307aa171e27100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6aa0d5e63308b712fa41d734f965b26') in 0.008017 seconds
+  Import took 0.010012 seconds .
+>>>>>>> main
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
